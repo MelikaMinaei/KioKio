@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5982449651481785014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5982449651481785008}
+  - component: {fileID: 5982449651481785015}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5982449651481785008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982449651481785014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5982449651481785015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982449651481785014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24c3711215c83b499e6c3a70f2659c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: d8e04c140205b8145be9bb30b66050ff, type: 2}
+  - {fileID: 11400000, guid: 503e65482f2a8444b99f2a50ce64fe0c, type: 2}
+  - {fileID: 11400000, guid: f344c34984ce2c144ad5273501c13ecf, type: 2}
+  - {fileID: 11400000, guid: 610660d903db83e4a986ac99b7b25562, type: 2}
+  - {fileID: 11400000, guid: 6d3e45d7b7cdeaf4cbd3885ac14ab4a0, type: 2}
+  - {fileID: 11400000, guid: 0e99d75d892eeb849bd26134206db0e4, type: 2}
+  - {fileID: 11400000, guid: 72cef6abd2fffe947af918da152ebbc9, type: 2}
+  - {fileID: 11400000, guid: aa4b3f8957454314997d5142a3e0a854, type: 2}
+  - {fileID: 11400000, guid: 5c475947c0fb247498cee1229ac3e8ef, type: 2}
+  - {fileID: 11400000, guid: 6e77dd85c4c0a2f4c9dcc396396a6dc8, type: 2}
+  - {fileID: 11400000, guid: a4d8bf39c55bf254d97189c41ece5319, type: 2}
+  - {fileID: 11400000, guid: 4b463ed0a30045646b517f9599aadb26, type: 2}
+  - {fileID: 11400000, guid: 505ec297fc113b74f919541d78a878f1, type: 2}
+  - {fileID: 11400000, guid: 6436bf483a0a2d3499fcc0bba3396410, type: 2}
+  - {fileID: 11400000, guid: 4fa0aef7e4fdaa7458e83ad2a6eaf7c6, type: 2}
+  - {fileID: 11400000, guid: db5428a5c32ae7346a30d584c96ddc72, type: 2}
+  startingWave: 0
+  looping: 1
